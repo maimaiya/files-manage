@@ -1,3 +1,6 @@
+# 在chatgpt中提问
+# 弹出文件选择对话框，选取excel文件(xlsx,xls,csv)，读取"所在地区"、"站点名称"两列，把读取的所在地区使用正则"^(.*州|.*市)"分成2个字符串，把3个字符串使用pandas新建为，DataFrame，最后输出DataFrame
+# chatgpt回答
 import re
 import tkinter as tk
 from tkinter import filedialog
